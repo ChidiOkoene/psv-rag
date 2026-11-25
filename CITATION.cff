@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use or build on PSV-RAG, please cite it as below."
-title: "PSV-RAG: Parallel Speculative Verify Retrieval-Augmented Generation"
+title: "PSV-RAG: Optimistic Retrieval-Augmented Generation with Parallel Speculative Drafting and Verification"
 authors:
   - family-names: Okoene
     given-names: Chidiebere

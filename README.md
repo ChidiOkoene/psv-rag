@@ -1,6 +1,6 @@
 # PSV-RAG
 
-**Parallel Speculative Verify RAG** — optimistic retrieval-augmented generation with parallel drafting and evidence-graded verification.
+**Optimistic Retrieval-Augmented Generation with Parallel Speculative Drafting and Verification**
 
 > Status: early concept and reference design. Implementation and benchmarks in progress.
 > Author: Chidiebere (Chidi) Okoene · First published: November 2026
@@ -73,7 +73,7 @@ If you use or build on PSV-RAG, please cite:
 ```bibtex
 @misc{okoene2026psvrag,
   author = {Okoene, Chidiebere},
-  title  = {PSV-RAG: Parallel Speculative Verify Retrieval-Augmented Generation},
+  title  = {PSV-RAG: Optimistic Retrieval-Augmented Generation with Parallel Speculative Drafting and Verification},
   year   = {2026},
   month  = {nov},
   howpublished = {\url{https://github.com/ChidiOkoene/psv-rag}}
