@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use or build on PSV-RAG, please cite it as below."
+title: "PSV-RAG: Parallel Speculative Verify Retrieval-Augmented Generation"
+authors:
+  - family-names: Okoene
+    given-names: Chidiebere
+date-released: 2026-11-25
+repository-code: "https://github.com/ChidiOkoene/psv-rag"
+keywords:
+  - retrieval-augmented generation
+  - RAG
+  - speculative generation
+  - verification
+  - LLM
