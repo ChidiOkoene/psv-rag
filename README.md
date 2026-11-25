@@ -80,6 +80,10 @@ If you use or build on PSV-RAG, please cite:
 }
 ```
 
+## License
+
+Apache License 2.0. See [LICENSE](LICENSE).
+
 ## References
 
 - Kung & Robinson (1981). On Optimistic Methods for Concurrency Control. ACM TODS 6(2).

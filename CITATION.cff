@@ -5,6 +5,7 @@ authors:
   - family-names: Okoene
     given-names: Chidiebere
 date-released: 2026-11-25
+license: Apache-2.0
 repository-code: "https://github.com/ChidiOkoene/psv-rag"
 keywords:
   - retrieval-augmented generation
