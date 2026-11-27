@@ -56,6 +56,14 @@ The maximum saving is the retrieval time, and grading costs something on every r
 | Gated domain | — | Skip the draft, generate grounded |
 | System under load | — | Skip the draft, run sequential RAG |
 
+## Hardened architecture
+
+The hardened design is built around a **claim ledger**: every claim from the draft gets a verdict (supported, contradicted, stale or unsupported) and a link to its evidence, and the final answer is written from the ledger rather than from the draft.
+
+![PSV-RAG hardened architecture](docs/medium/architecture-hardened.png)
+
+![Failure-to-fix map](docs/medium/failure-fix-map.png)
+
 ## How it differs from related work
 
 - **Speculative RAG** (Wang et al., 2024): a small model drafts *from* retrieved documents and a larger model verifies. PSV-RAG drafts *without* evidence, concurrently with retrieval.
