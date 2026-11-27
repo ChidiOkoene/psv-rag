@@ -48,9 +48,13 @@ The maximum saving is the retrieval time, and grading costs something on every r
 | High | Minor staleness | Surgical patch |
 | High | Missing critical caveat | Add the missing content |
 | High | Core premise contradicted | Discard and regenerate |
+| Any | Claim unsupported by the evidence | Targeted retrieval; drop or hedge if nothing turns up |
+| High, but sources disagree | Conflicting evidence | Rank by recency and authority; state the disagreement |
+| Any | Patched answer fails its re-check | Discard and regenerate |
 | Low | Contradicts draft | Hedge, show both, or flag for review |
 | Low or none | No relevant evidence | Ship draft, marked unsourced |
 | Gated domain | — | Skip the draft, generate grounded |
+| System under load | — | Skip the draft, run sequential RAG |
 
 ## How it differs from related work
 
